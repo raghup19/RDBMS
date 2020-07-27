@@ -17,4 +17,5 @@ from  customers; /*Retrives the unique list of states from the customer table. M
 /*Notes :
 1)SQL is not case sensitive language.
 2)Best practice is to specify the Keywords in SQL with uppder letter.
+3)We can change the order of presedence by putting the braces.
 */
