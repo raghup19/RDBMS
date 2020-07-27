@@ -8,7 +8,7 @@ where state = "VA";
 
 select *
 from orders
-where order_date >= '2019-01-01'; /*Query to retrive all the orders place in the year of 2019*/
+where order_date >= '2019-01-01' ; /*Query to retrive all the orders place in the year of 2019*/
 
 /*Comparision Operators 
 1) > : greated than.
