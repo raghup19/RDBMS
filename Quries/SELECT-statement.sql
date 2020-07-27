@@ -7,7 +7,7 @@ SELECT
 	points+10,
 	points+10*100,
 	(points+10)*100 AS discount_factor,
-    (points+10)*100 AS 'discount_factor' /*If we want to add space in alias of colunm the put it under single/double quotes.*/
+    (points+10)*100 AS 'discount factor' /*If we want to add space in alias of colunm the put it under single/double quotes.*/
 FROM Customers
 ORDER BY first_name;
 
@@ -17,4 +17,5 @@ from  customers; /*Retrives the unique list of states from the customer table. M
 /*Notes :
 1)SQL is not case sensitive language.
 2)Best practice is to specify the Keywords in SQL with uppder letter.
+3)We can change the order of presedence of operators by putting them in braces.
 */
